@@ -6,6 +6,6 @@ docker run --publish 443:443 --publish 80:80 \
   --name nginx-metabase  \
   --network="metabase-network" \
   --detach \
-  <DOCKER_REGISTRY>/metabase.docker.nginx:latest
+  fabianschyrer/metabase.docker.nginx:latest
 
 
